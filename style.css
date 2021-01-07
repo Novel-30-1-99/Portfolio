@@ -1,0 +1,114 @@
+nav{
+    margin: 1px;
+    padding: 2px;
+    font-family: 'Acme', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0; 
+}
+ul li{
+    list-style: none;
+    float: right; 
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: rgba(18, 11, 77, 0.925);
+    font-weight: 700;
+}
+body{
+    margin: 3px;
+    padding: 5px;
+    font-family: 'Acme', sans-serif;
+    color: rgba(36, 32, 32, 0.938);
+}
+h1{
+    font-size:50px;
+}
+#name{
+    color:tomato;
+}
+.home{
+    height: 500px;
+}
+.devide{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.devide img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+.about{
+    height: 500px;
+}
+.works{
+    height: 500px;
+}
+.full-work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#center{
+    text-align: center;
+}
+#span{
+    color: tomato;
+}    
+.working-sector{
+    margin: 2%;
+    width: 25%;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 10px 10px 40px gray;
+}
+.working-sector img{
+    width: 100%;
+}
+.work-inquery{
+    background-image:url(images/bkgnd.png);
+    margin: 10% 23%;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 40px gray;
+}
+.inquiry{
+    padding: 1% 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inquiry a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(180deg, lightsalmon, tomato);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#inquiry-color{
+    color: honeydew;
+}
+#email{
+    color: rgb(31, 4, 150);
+}
+.last{
+        text-align: center; 
+}
+.last img{
+    width: 2%;
+}
