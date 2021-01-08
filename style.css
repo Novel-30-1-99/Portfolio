@@ -2,6 +2,8 @@ nav{
     margin: 1px;
     padding: 2px;
     font-family: 'Acme', sans-serif;
+    height: 50px;
+ 
 }
 ul{
     margin: 0;
@@ -9,13 +11,15 @@ ul{
 }
 ul li{
     list-style: none;
-    float: right; 
+    float: right;
+    text-align: center; 
 }
 ul li a{
     text-decoration: none;
     padding: 20px 20px;
     color: rgba(18, 11, 77, 0.925);
     font-weight: 700;
+    text-align: center; 
 }
 body{
     margin: 3px;
