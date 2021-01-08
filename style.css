@@ -14,12 +14,15 @@ ul li{
     float: right;
     text-align: center; 
 }
+nav li:hover{
+    background-color: rgba(220, 194, 247, 0.938);
+}
 ul li a{
     text-decoration: none;
     padding: 20px 20px;
     color: rgba(18, 11, 77, 0.925);
     font-weight: 700;
-    text-align: center; 
+ 
 }
 body{
     margin: 3px;
